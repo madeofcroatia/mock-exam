@@ -19,9 +19,9 @@ So, for example, given an array `[1, 2, 3, 555, 234, 44]`, cyclically rotating i
 **Any sort of HARDCODING of test cases will be penalized with 0 on the exam**
 You have to implement three functions:
 <ol>
-    <li>`rotate_right_by_1` which takes an `array` and returns what it would look like if it were rotated right once </li>
-    <li>`rotate_right_by_k` which takes an `array`, a non-negative integer `k`, and returns what it would look like if it were rotated right `k` times </li>
-    <li>`rotate_by_k` which takes an `array`, an integer `k`(maybe positive, negative, or zero) and returns what the `array` would look like if it was rotate `|k|` times right if `k` positive and left if `k` is negative</li>
+    <li>```rotate_right_by_1``` which takes an ```array``` and returns what it would look like if it were rotated right once </li>
+    <li>```rotate_right_by_k``` which takes an ```array```, a non-negative integer ```k```, and returns what it would look like if it were rotated right ```k``` times </li>
+    <li>```rotate_by_k``` which takes an ```array```, an integer ```k```(maybe positive, negative, or zero) and returns what the ```array``` would look like if it was rotate ```|k|``` times right if ```k``` positive and left if ```k``` is negative</li>
 </ol>
 
 
