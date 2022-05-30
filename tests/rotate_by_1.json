@@ -1,0 +1,40 @@
+[
+  {
+    "array" : [
+      13
+    ],
+    "expected" : [
+      13
+    ],
+    "purpose" : "Purpose: Check that array of size 1 does not change"
+  },
+  {
+    "array" : [
+      13,
+      2
+    ],
+    "expected" : [
+      2,
+      13
+    ],
+    "purpose" : "Purpose: Check that array of size 2 rotates properly"
+  },
+  {
+    "array" : [
+      13, 14, 2, 3, 444, 5, 16
+    ],
+    "expected" : [
+      16, 13, 14, 2, 3, 444, 5
+    ],
+    "purpose" : "Purpose: Check that array of large size works rotates properly"
+  },
+  {
+    "array" : [
+      1, 1, 1, 1
+    ],
+    "expected" : [
+      1, 1, 1, 1
+    ],
+    "purpose" : "Purpose: Check that array of one element repeated does not change"
+  }
+]

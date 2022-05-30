@@ -1,0 +1,52 @@
+[
+  {
+    "array": [
+      9990
+    ],
+    "k": 1000,
+    "expected": [
+      9990
+    ],
+    "purpose": "Purpose: Check that rotating 1 element array does not do anything"
+  },
+  {
+    "array": [
+      9990, 2, 13, 444
+    ],
+    "k": 4,
+    "expected": [
+      9990, 2, 13, 444
+    ],
+    "purpose": "Purpose: Check that rotating 4 element array 4 times does not do anything"
+  },
+  {
+    "array": [
+      88, 0, 3, -513, 123, 445
+    ],
+    "k": 60,
+    "expected": [
+      88, 0, 3, -513, 123, 445
+    ],
+    "purpose": "Purpose: Check that rotating n element array by a multiple of n does not do anything"
+  },
+  {
+    "array": [
+      56, 14, 213, 44, 5
+    ],
+    "k": 3,
+    "expected": [
+      213, 44, 5, 56, 14
+    ],
+    "purpose": "Purpose: Check that rotating 5 element array to the right by 3 works properly"
+  },
+  {
+    "array": [
+      56, 14, 213, 44, 5
+    ],
+    "k": 13,
+    "expected": [
+      213, 44, 5, 56, 14
+    ],
+    "purpose": "Purpose: Check that rotating 5 element array to the right by 13 works properly"
+  }
+]
